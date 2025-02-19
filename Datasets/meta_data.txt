@@ -1,0 +1,38 @@
+DATASET_CONFIG = {
+    "Sydney House Prices": {
+        "path": "Datasets/SydneyHousePrices.csv",
+        "target": "sellPrice",
+        "cat_feature":  #Categorical features
+<<<<<<< HEAD
+                    [suburb],
+                    [postalCode],
+                    [propType],
+=======
+                    ["suburb"],
+                    ["postalCode"],
+                    ["propType"],
+>>>>>>> 343c729a5f4c5c5b924ae500841849d514c68dd1
+        "num_feature":  #Numerical Features
+                    ["bed",1, 5],
+                    ["bath",1, 5],
+                    ["car",1, 5]
+<<<<<<< HEAD
+=======
+    },
+
+    "Iris Dataset":{
+        "path": "Datasets/k_med_iris_data.txt",
+        "target": "class",
+        "cat_feature":  #Categorical features,
+                        ["class"]
+        "num_feature": ["sepal length"],
+                        ["sepal width"],
+                        ["petal length"],
+                        ["petal width"]
+
+
+>>>>>>> 343c729a5f4c5c5b924ae500841849d514c68dd1
+    },
+    
+    # Add more datasets here
+}
